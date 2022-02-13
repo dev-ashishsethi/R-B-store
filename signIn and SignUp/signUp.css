@@ -1,0 +1,97 @@
+.signIn-form{
+    display: grid;
+    grid-template-areas: "fname lname"
+                         "finput linput"
+                         "emaillabel passlabel"
+                         "email pass"
+                         "confpasslabel -"
+                         "confpass -"
+                         "btn1 btn2";
+
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 0fr 0fr 0fr 0fr 0fr 0fr;
+    column-gap: 1rem;
+    row-gap: 9px;
+}
+
+.form-label{
+    color: var(--color-white);
+}
+
+#fname-label{
+    grid-area: fname;
+}
+
+#finput{
+    grid-area: finput;
+}
+
+#lname-label{
+    grid-area: lname;
+}
+
+#linput{
+    grid-area: linput;
+}
+
+#email-label{
+    grid-area: emaillabel;
+}
+#email-input{
+    grid-area: email;
+}
+
+#pass-label{
+    grid-area: passlabel;
+}
+#pass-input{
+    grid-area: pass;
+}
+
+#confpass-label{
+    grid-area: confpasslabel;
+}
+#confpass-input{
+    grid-area: confpass;
+}
+
+#form-btn3{
+    grid-area: btn1;
+}
+#form-btn4{
+    grid-area: btn2;
+    text-align: center;
+    font-size: 13.33px;
+}
+
+.form-container{
+    display: flex;
+    place-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+.form-subcontainer{
+    padding: 2rem 4rem 4rem 4rem;
+    border: 1px solid var(--color-white);
+    border-radius: 10px;
+}
+
+.form-title{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem ;
+    color: var(--color-white);
+}
+.sign-input-box{
+    position: relative;
+    background-color: transparent;
+    border-radius: 5px;
+    padding: 6px;
+    border: 1px solid var(--color-white);
+    color: var(--color-white);
+    height: 2.5rem;
+}
+.sign-input-box::placeholder{
+    color: var(--color-white);
+}
