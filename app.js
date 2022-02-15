@@ -1,5 +1,7 @@
 let carousel= document.querySelector("#carousel");
 
+
+
 let arrayOfImages=[
     "assets\\images\\Anime-silder-1920-1920x450.webp",
     "assets\\images\\rick-and-morty-slider-1-1920-1920x450.webp",
