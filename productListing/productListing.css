@@ -1,0 +1,147 @@
+*{
+    color: var(--color-white);
+}
+.main-content{
+    display: grid;
+    grid-template-areas: "sidebar pr";
+    grid-template-columns: 0.3fr 1.5fr;
+    gap: 1rem;
+}
+
+.sidebar{
+    margin-left: 1rem;
+    margin-top: 1rem;
+    height: 100vh;
+    grid-area: sidebar;
+}
+.section-line{
+    background-color: var(--color-white);
+    width: 100%;
+    height: 2px;
+    margin-bottom: 7px;
+}
+
+.input-section{
+    display: block;
+    margin-bottom: 7px;
+}
+
+.label{
+    display: block;
+    color: var(--color-white);
+    margin-bottom: 7px;
+    font-size: large;
+}
+
+.price-filter{
+    margin-top: 2rem;
+}
+.category-filter{
+    margin: 2rem 0rem;
+}
+
+.filter{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.rating-text{
+    display: block;
+}
+
+.rating-container{
+    display: flex;
+    flex-direction: column;
+}
+.slider{
+    width: 10rem;
+}
+.star{
+    margin-right: 0.7rem;
+    
+}
+
+#fifth-star{
+    margin-right: 0rem;
+}
+
+.product-card{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 18rem;
+    background-color: var(--color-white);
+    border-radius: 1rem;
+    justify-content: center;
+    padding: 1rem 1rem 1rem 0rem;
+}
+
+.ecommerce-image{
+    width:10rem;
+    align-self: center;
+    background-color: var(--color-white);
+}
+.ecommerce-description{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    background-color: var(--color-white);
+    font-size: 15px;
+    text-align: justify;
+    word-spacing: -1px;
+    overflow: hidden;
+    margin: 1rem 0rem 1rem 1rem;
+    color: var(--color-black);
+}
+
+.ecommerce-price{
+    background-color: var(--color-white);
+    margin-left: 1rem;
+    margin-top: 1rem;
+    color: var(--color-red);
+    align-self: center;
+}
+
+.product-title
+{
+    background-color: var(--color-white);
+    color: var(--color-black);
+    margin-left: 1rem;
+}
+
+.price-and-btn{
+    display: flex;
+    background-color: transparent;
+    justify-content: space-between;
+}
+
+.product-btn-section{
+    display: block;
+    margin-left:1rem ;
+    margin-top: 1rem;
+    /* width: 16rem; */
+    border-radius: 0.3rem;
+}
+
+.w-100{
+    width: 100%;
+    
+}
+.whishlist{
+    position: absolute;
+    top: 1rem;
+    right:1rem;
+    background-color: transparent;
+    color: var(--color-red);
+    font-size: larger;
+    cursor: pointer;
+}
+
+.product-listing{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4rem;
+    height: fit-content;
+    margin: 4rem 0rem 0rem 6rem;
+}

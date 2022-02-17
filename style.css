@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Nunito&family=Roboto:wght@100;300;400;500;700&display=swap');
+
+
 @import url('./signIn and SignUp/signin.css');
 @import url('./signIn and SignUp/signUp.css');
+@import url('./productListing/productListing.css');
 :root{
     --color-black:rgb(20 20 20);
     --color-light-black:#141414;
@@ -193,3 +196,4 @@ a:visited{
     float: left;
     padding: 5px;
 }
+
