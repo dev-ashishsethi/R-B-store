@@ -19,6 +19,7 @@
     width: 100%;
     height: 2px;
     margin-bottom: 7px;
+    margin-top: 7px;
 }
 
 .input-section{
@@ -128,7 +129,7 @@
     width: 100%;
     
 }
-.whishlist{
+.icon-on-card{
     position: absolute;
     top: 1rem;
     right:1rem;
