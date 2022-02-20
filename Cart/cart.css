@@ -127,3 +127,33 @@
 #in-cart{
     color: var(--color-red);
 }
+
+.dropdown{
+    display: inline-block;
+    position: relative;
+}
+
+.dropdown-list{
+    display: none;
+    position: absolute;
+    top: 1.3rem;
+    right: 1rem;
+    width: 7rem;
+    background-color: var(--color-white);
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.dropdown:hover .dropdown-list{
+    display: block;
+}
+
+.dropdown-item{
+    background-color: var(--color-white);
+    color: var(--color-black);
+}
+
+#logout{
+    color: var(--color-red);
+    font-weight: 700;
+}
